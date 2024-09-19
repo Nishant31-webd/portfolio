@@ -1,0 +1,210 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #E7EFC5;
+    color: #413C58;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+                              /* utility */
+
+.flex{
+    display: flex;
+    align-items: center;
+    
+}
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #A3C4BC;
+    transition: 0.2s;
+    font-weight: 400;
+    border-color: #413C58;
+    color: #413C58;
+}
+.button:hover{
+    background-color: #B1CEB9;
+    font-weight: 700;
+    
+}
+ul{list-style-type: none;}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+                            /* top bar */
+.nav-margin{
+    justify-content: space-between;
+}
+.nav-margin img{
+      width: 80px;
+}
+.top-bar{
+    font-weight: 700;
+    font-size: 1.5rem;
+   
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 50px 40px;
+    
+}
+.link{
+    color: #A3C4BC;
+    transition: 0.5s;
+
+}
+.link:hover{
+    color: #B1CEB9;
+
+}
+    
+    
+                                           /* intro */
+
+.heading{
+    flex-direction: column;
+    padding-top: 30px;
+    font-size: 2.5rem;
+}
+
+.sub-heading{
+    font-size: 1.7rem;
+    padding-top: 0;
+}
+.heading-para{
+    padding: 20px;
+    font-size: 1.3rem;
+}
+.icons-div{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.icons img{
+    width: 40px;
+}
+.icons{
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: center;
+    transition: 0.5s;
+}
+.icons:hover{
+    transform: scale(1.2);
+}
+                          /* education */
+.education-main{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.education-header{
+    padding-top: 40px;
+    padding-bottom: 25px;
+
+}
+.education-row{
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 150px;
+    border: 1px solid   #413C58;
+    border-radius: 10px;
+    
+}
+.education-section{
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 0px;
+}
+.education-section img{
+    height: 250px;
+    width: 400px;
+    
+    
+}
+.institute-name{
+    padding-top: 20px;
+}
+.education-section img:hover{
+
+    transform: scale(1.1);
+    transition: 0.1s    ease-in-out;
+    border-radius: 10px 10px;
+    
+    
+}
+                                    /* projects */
+
+.project-main{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-header{
+    padding-top: 40px;
+    padding-bottom: 25px;
+
+}
+.project-row{
+    flex-direction: row;
+    gap: 100px;
+    border: 1px solid   #413C58;
+    border-radius: 10px;
+}
+.project-contents{
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+.project-content-flex{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+
+}
+.project-contents img{
+    width: 400px;
+    height: 200px;
+}
+.project-contents img:hover{
+
+    transform: scale(1.01);
+    transition: 0.1s    ease-in-out;
+    border-radius: 10px 10px;
+}    
+
+                        /* contact */
+.contact-main{
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;   
+}
+.contact-row{
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid   #413C58;
+    border-radius: 10px;    
+}
+.contact-contents{
+    flex-direction: row;
+    padding: 50px 100px;
+}
+.contact-contents img{
+    max-width: 40px;
+}
+.copyright{
+    font-size: 0.8rem;
+    justify-content: center;
+    text-align: center;
+    color: #413C58;
+    padding: 0px;
+}
